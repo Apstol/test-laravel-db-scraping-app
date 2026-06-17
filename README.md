@@ -8,8 +8,8 @@ test_db
 - stocks
 
 # Доступ к БД (только операции чтения)
-host: 88.218.60.111
-port: 3306
-user: remote_user
-password: n3WQ*eS1
+
+| host         | port | user        | password |
+| ------------ | ---- |-------------|----------|
+| 88.218.60.111| 3306 | remote_user | n3WQ*eS1 |
 
