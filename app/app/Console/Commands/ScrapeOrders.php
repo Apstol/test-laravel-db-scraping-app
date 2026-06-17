@@ -77,7 +77,7 @@ class ScrapeOrders extends Command
             'category' => ['required', 'string', 'max:255'],
             'brand' => ['required', 'string', 'max:255'],
             'is_cancel' => ['required', 'boolean'],
-            'cancel_dt' => ['date_format:Y-m-d', 'nullable e'],
+            'cancel_dt' => ['date_format:Y-m-d', 'nullable'],
         ])
             ->validate();
     }
